@@ -1,0 +1,497 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Jockey+One&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #63d0f1;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* nav */
+
+.container>div {
+    z-index: 2;
+    padding: 15px;
+    text-align: center;
+    font-size: 18px;
+
+}
+
+.container div a {
+    color: white;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    transition: background .5s;
+    z-index: 10;
+    
+}
+
+header {
+    display: inline;
+}
+
+.container {
+    /* background-color: dodgerblue; */
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+}
+nav .logo {
+    float: left;
+    margin-top: 0px;
+  }
+.logo {
+    flex-basis: 10%;
+    margin-left: 50px;
+}
+
+.logo a {
+    font-size: 26px;
+}
+
+.about,
+.event,
+.sign {
+    flex-basis: 10%;
+
+}
+
+
+.sign a {
+    border: 2px solid white;
+    padding: 5px 10px 5px 10px;
+}
+
+
+.sign a:hover {
+    color: #e4d565;
+    background-color: white;
+    transition: .7s;
+}
+
+.empty {
+    flex-grow: 2;
+}
+
+/* main */
+
+.jumbotorn {
+    background-image: url('../img/bg.png');
+    width: 100%;
+    margin-top: -200px;
+    height: 1100px;
+    object-fit: cover;
+    object-position: center;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* landing page */
+.landing {
+    width: 45%;
+    z-index: 1;
+    position: relative;
+    padding: 0;
+    margin: 0;
+    top: 250px;
+    left: 60px;
+
+}
+
+.landing h1 {
+    font-size: 7.5em;
+    color: white;
+    font-family: 'Jockey One', sans-serif;
+    letter-spacing: 15px;
+    
+}
+
+.landing p {
+    margin-top: -70px;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    line-height: 34px;
+}
+
+.landing a {
+    margin-top: 30px;
+    position: relative;
+    top: 50px;
+    padding: 20px;
+    background-color: white;
+    font-size: 20px;
+    color: #e4d565;
+    border-radius: 4px;
+
+    font-family: 'Jockey One', sans-serif;
+    letter-spacing: 4px;
+}
+
+.landing a:hover {
+    box-shadow: 0 0px 20px 0 white;
+    transition: .2s;
+}
+
+/* end of landing page (jumbotorn) */
+
+
+/* main page */
+.main-container {
+    display: flex;
+
+    height: 50%;
+    background-color: #63d0f1;
+    margin: 0;
+    padding: 80px;
+    margin-top: 100px;
+    margin-left: 70px;
+
+    border-left: 3px solid #e4d565;
+}
+
+.main-container #info {
+    flex-basis: 50%;
+    margin-left: auto;
+}
+
+#info {
+    border-right: 1px solid #e4d565;
+}
+
+#info .info-title {
+    font-size: 110px;
+    font-family: 'Jockey One', sans-serif;
+    font-weight: 600;
+    letter-spacing: 5px;
+    color: whitesmoke;
+    padding: 10px;
+    border-top: 1px solid#e4d565;
+    position: relative;
+    top: 120px;
+    right: px;
+}
+
+#info .info-explain {
+    margin-bottom: 10px;
+    padding: 20px;
+    color: whitesmoke;
+    width: 60%;
+    border-bottom: 1px solid #e4d565;
+
+    position: relative;
+    bottom: 450px;
+}
+
+#info .info-explain h4 {
+    font-size: 22px;
+}
+
+#info .info-explain p {
+    font-size: 16px;
+    letter-spacing: 1.5px;
+    line-height: 31px;
+
+}
+
+#info .info-img {
+    background-image: url('../img/illustrasi-3d.png');
+    width: 100%;
+    height: 550px;
+    border-bottom: 2px solid #e4d565;
+
+    background-size: 550px;
+    background-repeat: no-repeat;
+
+    position: relative;
+    right: 800px;
+    bottom: 60px;
+
+}
+
+/* end of about */
+
+/* background parallax */
+
+.container-parallax {
+    margin-top: -550px;
+
+    border-right: 2px solid #e4d565;
+    width: 90%;
+}
+
+.container-parallax .parallax-text {
+    position: relative;
+    font-family: 'Jockey One', sans-serif;
+    top: 300px;
+    /* right: -1290px; */
+    left: 150px;
+    color: whitesmoke;
+}
+
+.container-parallax .parallax-text h2 {
+
+    font-size: 119px;
+}
+
+.container-parallax .parallax-text h1 {
+    font-size: 128px;
+    margin-top: -55px;
+}
+
+.bg-parallax {
+    background-image: url('../img/parallax-3d.png');
+    width: 100%;
+    height: 350px;
+
+    /* position: relative;
+    left: -45px; */
+    /* top: 900px;
+    left: -1000px; */
+
+    margin-top: -150px;
+    object-fit: cover;
+    object-position: center;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* end of parallax background */
+
+/* event main */
+.event-container {
+    display: flex;
+    width: 50%;
+
+}
+
+.event-container #event {
+    flex-basis: 70%;
+    margin-left: auto;
+    color: whitesmoke;
+
+    height: 900px;
+    border-right: 2px solid #e4d565;
+}
+
+.event-container #event h1 {
+    font-family: 'Jockey One', sans-serif;
+    font-size: 78px;
+    letter-spacing: 3px;
+    border-bottom: 2px solid #e4d565;
+    margin-top: 160px;
+}
+
+.event-container #event p {
+    font-size: 16px;
+    letter-spacing: 1.5px;
+    line-height: 31px;
+}
+
+.event-container #event a {
+    margin-top: 30px;
+    position: relative;
+    top: 50px;
+    padding: 20px;
+    padding-bottom: -20px;
+    background-color: white;
+    font-size: 20px;
+    color: #63d0f1;
+    border-radius: 4px;
+    letter-spacing: 4px;
+    font-weight: 500;
+    font-family: 'Jockey One', sans-serif;
+}
+
+.event-container #event img {
+    position: relative;
+    left: 785px;
+    bottom: 555px;
+    width: 500px;
+    height: 700px;
+    border-bottom: 2px solid #e4d565;
+    border-radius: 20px;
+}
+
+/* .event-container #event .hexa {
+    position: relative;
+    left: 1200px;
+    transform: rotate(45deg);
+    z-index: 3;
+    width: 0;
+    border-top: 30px solid #E6F0F5;
+    border-bottom: 30px solid #E1A0FF;
+    border-left: 30px solid rgb(229, 167, 248);
+    border-right: 30px solid #E28EFC;
+} */
+
+/* end of event */
+
+/* about us */
+
+aside {
+    width: 85%;
+
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    bottom: 10px;
+    margin-bottom: 300px;
+    background-color: #e4d565;
+    border-right: 2px solid #B5E1EE;
+    border-top: 2px solid #B5E1EE;
+    padding: 20px;
+}
+
+.aside-container h1 {
+    display: none;
+}
+
+.aside-container .person1,
+.person2,
+.person3 {
+    flex-grow: 1;
+    border: 2px solid #B5E1EE;
+    padding: 15px;
+    margin: 10px;
+
+    width: 400px;
+    height: 250px;
+    color: white;
+}
+
+.person1:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 30px;
+    border-bottom: 90px solid #e4d565;
+    border-right: 90px solid #e4d565;
+    width: 0;
+}
+
+.person2::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 555px;
+    border-bottom: 90px solid #e4d565;
+    border-right: 90px solid #e4d565;
+    width: 0;
+}
+
+.person3::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 445px;
+    border-bottom: 90px solid #e4d565;
+    border-right: 90px solid #e4d565;
+    width: 0;
+}
+
+
+
+.person2 img,
+.person1 img,
+.person3 img {
+    height: 200px;
+    width: 200px;
+
+    position: relative;
+    right: 30px;
+}
+
+.profil h3 {
+    letter-spacing: 3px;
+    display: inline;
+
+    font-size: 24px;
+    font-family: 'Jockey One', sans-serif;
+    position: relative;
+    bottom: 150px;
+    right: 5px;
+}
+
+.profil p {
+    display: inline-block;
+    width: 59%;
+    font-size: 14px;
+
+    position: relative;
+    bottom: 150px;
+    left: 198px;
+
+}
+
+aside .aside-container {
+    display: flex;
+
+    width: 100%;
+}
+
+
+
+/* end of about us */
+
+
+/* footer container */
+.footer-container {
+    display: flex;
+
+    width: 100%;
+    height: 500px;
+    margin-top: -429px;
+    background-color: #e4d565;
+}
+
+.footer-container .footer {
+    flex-basis: 50%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.footer-container .footer h3 {
+
+    text-align: center;
+    color: whitesmoke;
+
+    margin-top: 190px;
+}
+
+.footer-container .footer p {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.footer-container .footer h3 {
+    font-size: 46px;
+    font-family: 'Jockey One', sans-serif;
+    letter-spacing: 4px;
+}
+
+/* end of footer */

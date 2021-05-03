@@ -1,0 +1,218 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+:root {
+  --bluewhite: #f3f5e7;
+  --white: #ededed;
+  --grey: #4a4a4a;
+  --yellow: #e4d565;
+  --purple: blueviolet;
+  --blue: #40becd;
+  --red: #cd4f40;
+  --nav: 15px 40px;
+}
+
+/* For Smartphones */
+@media only screen and (max-width: 670px) {
+  header {
+    width: 100%;
+  }
+  nav {
+    width: 100%;
+  }
+
+  nav .logo {
+    margin: 5px 5px 5px 15px;
+  }
+
+  #logo {
+    width: 50px;
+  }
+
+  nav ul {
+    line-height: 30px;
+    margin: 0;
+    padding-right: 0px;
+  }
+
+  nav ul li a {
+    font-size: 12px;
+  }
+  .forms-section {
+    padding-top: 10px;
+    width: 100%;
+  }
+
+  .forms {
+    padding-top: 40px;
+    margin-top: 30px;
+  }
+
+  .switcher {
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+  }
+  .form-wrapper.is-active .switcher-login {
+    font-size: 16px;
+  }
+
+  .form-wrapper.is-active .switcher-signup {
+    font-size: 16px;
+  }
+
+  .form {
+    min-width: 100px;
+    margin-top: 40px;
+    padding: 20px 15px;
+  }
+
+  .input-block {
+    margin-bottom: 10px;
+  }
+
+  .input-block label {
+    font-size: 12px;
+    font-weight: 300;
+  }
+
+  .input-block input {
+    width: 100%;
+    margin-top: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 10px;
+    line-height: 20px;
+  }
+
+  .form .btn-login {
+    padding: 0px 10px;
+    font-size: 12px;
+    min-width: 80px;
+    margin: 20px auto 10px;
+  }
+
+  .form .btn-signup {
+    text-decoration: none;
+    padding: 0px 10px;
+    font-size: 12px;
+    min-width: 80px;
+    margin: 20px auto 10px;
+  }
+
+  #boss1 {
+    width: 10px;
+    display: none;
+  }
+  #boss2 {
+    width: 10px;
+    display: none;
+  }
+  .bg-image .image-right {
+    top: 200px;
+    right: 0px;
+    z-index: 0;
+  }
+
+  .bg-image .image-left {
+    top: 210px;
+    left: 0px;
+    z-index: 0;
+  }
+}
+
+/* For Tablet*/
+@media only screen and (max-width: 1024px) and (min-width: 671px) {
+  header {
+    width: 100%;
+  }
+  nav {
+    width: 100%;
+  }
+
+  nav .logo {
+    margin: 10px 10px 10px 20px;
+  }
+
+  #logo {
+    width: 80px;
+  }
+
+  nav ul {
+    line-height: 50px;
+  }
+
+  nav ul {
+    line-height: 40px;
+    margin: 0;
+    padding-right: 0px;
+  }
+
+  nav ul li a {
+    font-size: 16px;
+  }
+  .forms-section {
+    padding-top: 30px;
+    width: 100%;
+  }
+
+  .forms {
+    padding-top: 45px;
+    margin-top: 30px;
+  }
+
+  .switcher {
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 1px;
+  }
+  .form-wrapper.is-active .switcher-login {
+    font-size: 24px;
+  }
+
+  .form-wrapper.is-active .switcher-signup {
+    font-size: 24px;
+  }
+
+  .input-block {
+    margin-bottom: 15px;
+  }
+
+  .input-block label {
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  .input-block input {
+    width: 100%;
+    margin-top: 5px;
+    font-size: 12px;
+    line-height: 30px;
+  }
+
+  .form .btn-login {
+    font-size: 16px;
+    min-width: 100px;
+  }
+
+  .form .btn-signup {
+    font-size: 16px;
+    min-width: 100px;
+  }
+
+  #boss1 {
+    width: 150px;
+  }
+  #boss2 {
+    width: 200px;
+  }
+  .bg-image .image-right {
+    top: 250px;
+    right: 30px;
+    z-index: 0;
+  }
+
+  .bg-image .image-left {
+    top: 280px;
+    left: 15px;
+    z-index: 0;
+  }
+}

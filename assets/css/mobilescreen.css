@@ -1,0 +1,314 @@
+/* ******************************** */
+/* mobile layout */
+/* ******************************** */
+
+@media screen and (max-width: 800px) {
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    /* navbar */
+
+    nav .container {
+        border-bottom: 2px solid 63d0f1(144, 91, 235);
+        z-index: 999;
+        background-color: #e4d565;
+    }
+
+    .container>div {
+        padding: 1px;
+    }
+
+    .logo {
+        margin-left: 128px;
+    }
+
+    .logo a {
+        font-size: 28px;
+    }
+
+    .about,
+    .event,
+    .sign,
+    .empty,
+    .info {
+        display: none;
+    }
+
+    /* end of navbar */
+
+    /* jumbotorn */
+
+    .jumbotorn {
+        background-image: none;
+        border: none;
+
+    }
+
+    .landing {
+        width: 89%;
+        border: 1px solid #e4d565;
+        border-radius: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 190px;
+        left: 0;
+        top: 0;
+        padding: 10px;
+    }
+
+    .landing h1 {
+        font-size: 3.0em;
+        text-align: center;
+        letter-spacing: 3px;
+    }
+
+    .landing p {
+        font-size: 14px;
+        margin-top: 0px;
+        line-height: normal;
+        text-align: center;
+    }
+
+    .landing a {
+        margin-top: 20px;
+        position: relative;
+        top: 30px;
+        padding: 15px;
+        font-size: 18px;
+        box-shadow: 0 0px 20px 0 white;
+        left: 40px;
+        letter-spacing: 4px;
+        font-weight: 500;
+        font-family: 'Jockey One', sans-serif;
+    }
+
+    /* end of jumbotorn */
+
+
+    /* main */
+    /* .main-container {
+        border: none;
+        display: none;
+    } */
+
+    .main-container {
+        display: flex;
+
+        margin-top: -390px;
+        width: 89%;
+        height: auto;
+        border: 1px solid rgb(144, 91, 235);
+        border-radius: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 5px;
+    }
+
+    #info .info-img {
+        display: none;
+    }
+
+    .main-container #info {
+        border: none;
+        flex-basis: 100%;
+        margin: unset;
+        border: none;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    span.info-title {
+        font-size: 3.0em;
+        text-align: center;
+        letter-spacing: 3px;
+        display: none;
+    }
+
+    #info .info-explain {
+        width: 89%;
+        bottom: 0;
+    }
+
+    #info .info-explain h4 {
+        font-size: 3.0em;
+        text-align: center;
+        letter-spacing: 3px;
+        font-family: 'Jockey One', sans-serif;
+    }
+
+    #info .info-explain p {
+        font-size: 14px;
+        margin-top: 0px;
+        line-height: normal;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    .main-container #info .info-explain {
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0;
+        bottom: 0;
+        position: relative;
+        border: none;
+        text-align: center;
+    }
+
+
+    /* end of main */
+
+    /* parallax */
+    .container-parallax {
+        display: none;
+    }
+
+    /* end of parallax */
+
+    /* event  */
+
+    .event-container {
+        display: flex;
+        width: 89%;
+        border: 1px solid rgb(144, 91, 235);
+        border-radius: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 120px;
+    }
+
+    .event-container #event {
+        flex-basis: 80%;
+
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        border: none;
+        height: auto;
+    }
+
+    .event-container #event h1 {
+        font-size: 3.0em;
+        text-align: center;
+        letter-spacing: 3px;
+        border: none;
+    }
+
+    .event-container #event p {
+        font-size: 14px;
+        margin-top: 0px;
+        line-height: normal;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .event-container #event .hexa {
+        display: none;
+    }
+
+    .event-container #event img {
+        display: none;
+    }
+
+    .event-container #event a {
+        margin-top: 20px;
+        position: relative;
+        top: 15px;
+        padding: 15px;
+        font-size: 18px;
+        box-shadow: 0 0px 20px 0 white;
+        left: 25px;
+    }
+
+    /* end of event */
+
+    /* aside  */
+    #about {
+        border: 2px solid rgb(144, 91, 235);
+        margin-top: 120px;
+        border-radius: 20px;
+        height: auto;
+        margin-bottom: -50px;
+        display: none;
+    }
+
+    aside .aside-container {
+        display: none;
+        flex-direction: column;
+    }
+
+    .aside-container .profil {
+        border: none;
+    }
+
+
+    .profil img {
+        border-radius: 50%;
+        height: 150px;
+        width: 150px;
+
+        position: relative;
+        right: 0;
+        left: 0;
+        margin-left: 45px;
+    }
+
+    .profil p {
+        display: none;
+    }
+
+    .profil h3 {
+        position: relative;
+        font-size: 18px;
+        top: 50px;
+        right: 140px;
+    }
+
+    .aside-container h1 {
+        display: inline;
+        font-size: 48px;
+        color: white;
+        font-family: 'Jockey One', sans-serif;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .person1::before,
+    .person2::before,
+    .person3::before {
+        display: none;
+    }
+
+    /* end of aside */
+
+    /* footer */
+    .footer-container {
+        display: flex;
+
+        width: 100%;
+        height: auto;
+        margin-top: 150px;
+    }
+
+    .footer-container .footer {
+        padding: 10px;
+    }
+
+    .footer-container .footer h3 {
+        margin-top: 0;
+        font-size: 25px;
+    }
+
+    .footer-container .footer p {
+        font-size: 11px;
+
+    }
+
+    /* end of footer */
+
+
+
+
+}
